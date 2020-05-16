@@ -21,8 +21,8 @@ The framework exhibits
 1. Modularity  
 2. Data Driven Test
 3. Reusability 
-4. Recording Test Video - Video/test/
-5. Failure screenshots are captured - Screenshots folder
+4. Recording Test Video - Can be found in Video/test/
+5. Failure screenshots are captured - Can be found in Screenshots folder
 6. Reports geenrated are stored in Reports/MochaReports/reports.html 
 7. Results can be seen in cypress Dashbaord (https://dashboard.cypress.io/projects/6438sz/runs/7/specs) when integrated with Jenkins
 8. CI/CD ready - Install Jenkins and configure the path , command npm run test to run in jenkins
