@@ -1,0 +1,220 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-05-16T09:14:50.076Z",
+    "end": "2020-05-16T09:17:23.163Z",
+    "duration": 153087,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d09f8b87-19f7-43e5-a055-e1d33b01b36f",
+      "title": "",
+      "fullFile": "cypress/integration/tests/MyGrantModuleAcceptanceTest.js",
+      "file": "cypress/integration/tests/MyGrantModuleAcceptanceTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fba5c858-dc1e-485e-8af6-8af8158a02f0",
+          "title": "My Grant Acceptance Test Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "AC1-1 Validate Next button and side menu is inactive & Eligibility menu is active when no answer is selected in My Grant page",
+              "fullTitle": "My Grant Acceptance Test Suite AC1-1 Validate Next button and side menu is inactive & Eligibility menu is active when no answer is selected in My Grant page",
+              "timedOut": null,
+              "duration": 12716,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "checkEligibility.validateSaveButtonEnabled();\ncheckEligibility.validateNextButtonIsDisabled();\ncheckEligibility.validateEligibilityIsActive();\ncheckEligibility.validateOtherSideMenuOptionDisabled();",
+              "err": {},
+              "uuid": "e19fe0f9-17b2-4632-8e2b-5cb1cdd6b555",
+              "parentUUID": "fba5c858-dc1e-485e-8af6-8af8158a02f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "AC1-2 Select answer Yes and Validate Next button is enabled, all the menu option is active and can navigate",
+              "fullTitle": "My Grant Acceptance Test Suite AC1-2 Select answer Yes and Validate Next button is enabled, all the menu option is active and can navigate",
+              "timedOut": null,
+              "duration": 14980,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "checkEligibility.selectYesOption();\ncheckEligibility.validateNextButtonIsEnabled();\ncheckEligibility.validateEligibilityMenuisEnabledAndNavigated();\ncheckEligibility.validateContactMenuIsEnabledAndNavigated();\ncheckEligibility.validateProposalMenuIsEnabledAndNavigated();\ncheckEligibility.validateCostMenuIsEnabledAndNavigated();\ncheckEligibility.validateBusinessImpactMenuIsEnabledAndNavigated();\ncheckEligibility.validateDeclarAndReviewMenuIsEnabledAndNavigated();",
+              "err": {},
+              "uuid": "5ac2f5a7-8c27-4eff-bf59-6aa9bddbbbde",
+              "parentUUID": "fba5c858-dc1e-485e-8af6-8af8158a02f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "AC1-3 Select No option and validate Next button , side menu other than eligibility is disabled  and warning message is triggered",
+              "fullTitle": "My Grant Acceptance Test Suite AC1-3 Select No option and validate Next button , side menu other than eligibility is disabled  and warning message is triggered",
+              "timedOut": null,
+              "duration": 10987,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "checkEligibility.selectNoOption();\ncheckEligibility.validateNextButtonIsDisabled();\ncheckEligibility.validateEligibilityIsActive();\ncheckEligibility.validateOtherSideMenuOptionDisabled();\ncheckEligibility.validateWarningMessage();",
+              "err": {},
+              "uuid": "5f02fac9-878d-47af-bd71-731b03022f7f",
+              "parentUUID": "fba5c858-dc1e-485e-8af6-8af8158a02f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "AC1-4 On clicking FAQ validate system launch the website in same window tab with URL https://ifaq.gov.sg/BGP/apps/fcd_faqmain.aspx#FAQ_1111145",
+              "fullTitle": "My Grant Acceptance Test Suite AC1-4 On clicking FAQ validate system launch the website in same window tab with URL https://ifaq.gov.sg/BGP/apps/fcd_faqmain.aspx#FAQ_1111145",
+              "timedOut": null,
+              "duration": 10463,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "checkEligibility.selectNoOption();\ncheckEligibility.validateWarningMessage();\ncheckEligibility.validateTargetFAQUrl(TESTDATA.TARGETURL);\ncheckEligibility.validateRequestToTargetFAQUrl();",
+              "err": {},
+              "uuid": "63fe6218-822b-4035-a5ed-f8e8c3691f65",
+              "parentUUID": "fba5c858-dc1e-485e-8af6-8af8158a02f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "AC1-5 Click on Save button to save the form as draft",
+              "fullTitle": "My Grant Acceptance Test Suite AC1-5 Click on Save button to save the form as draft",
+              "timedOut": null,
+              "duration": 9432,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "checkEligibility.clickOnSaveButton();\ncheckEligibility.validateDraftSaved();",
+              "err": {},
+              "uuid": "61141853-7c32-480f-88f5-330465fb4bdd",
+              "parentUUID": "fba5c858-dc1e-485e-8af6-8af8158a02f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "AC1-6 Go to home page and retrieve the draft form saved for editing",
+              "fullTitle": "My Grant Acceptance Test Suite AC1-6 Go to home page and retrieve the draft form saved for editing",
+              "timedOut": null,
+              "duration": 16526,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "checkEligibility.clickOnMyGrant();\nmyGrant.clickOnDraft();\nmyGrant.clickOnLastSavedDraft();\nmyGrant.validateDraftApplication();",
+              "err": {},
+              "uuid": "cbefdeaa-9264-400f-9c15-a4b968fc901d",
+              "parentUUID": "fba5c858-dc1e-485e-8af6-8af8158a02f0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "AC1-7 Retrieve application id by filling in various sections",
+              "fullTitle": "My Grant Acceptance Test Suite AC1-7 Retrieve application id by filling in various sections",
+              "timedOut": null,
+              "duration": 77336,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "checkEligibility.selectYesOption();\ncheckEligibility.clickOnContactDetail();\ncontact.fillContactDetails(TESTDATA.EMAIL, TESTDATA.NAME, TESTDATA.DESIGNATION, TESTDATA.PHONENO);\ncheckEligibility.clickOnProposal();\nproposal.fillInProposalDetails(TESTDATA.UNITS, TESTDATA.DATE, TESTDATA.REASONFOREQUIPMENT, TESTDATA.PROJECTREF, TESTDATA.ADDRESS, TESTDATA.VALUEOFPROJECT, TESTDATA.FILEPATH);\ncost.fillCostPageDetails(TESTDATA.PRICE);\nbusinessImpact.fillBusinessImpactDetails(TESTDATA.IMPACT, TESTDATA.REASON, TESTDATA.PERCENTAGE);\ndeclareAndReview.fillDeclareAndReview();\ndeclareAndReview.validateApplicationCreated();",
+              "err": {},
+              "uuid": "ffe00f3d-dcb6-4149-8c71-5f429acc2a2d",
+              "parentUUID": "fba5c858-dc1e-485e-8af6-8af8158a02f0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e19fe0f9-17b2-4632-8e2b-5cb1cdd6b555",
+            "5ac2f5a7-8c27-4eff-bf59-6aa9bddbbbde",
+            "5f02fac9-878d-47af-bd71-731b03022f7f",
+            "63fe6218-822b-4035-a5ed-f8e8c3691f65",
+            "61141853-7c32-480f-88f5-330465fb4bdd",
+            "cbefdeaa-9264-400f-9c15-a4b968fc901d",
+            "ffe00f3d-dcb6-4149-8c71-5f429acc2a2d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 152440,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}
