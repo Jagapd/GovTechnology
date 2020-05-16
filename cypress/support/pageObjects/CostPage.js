@@ -30,7 +30,6 @@ class CostPage {
     {
         this.selectIntentOfPurchase()
         this.fillInPurchasePrice(price)
-       // this.fillInOneTimeFee(onetimefee)
         this.clickNext()
         cy.wait(2000)
 
