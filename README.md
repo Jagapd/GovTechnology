@@ -25,7 +25,7 @@ The framework exhibits
 5. Failure screenshots are captured - Can be found in Screenshots folder
 6. Reports generated are stored in Reports/MochaReports/reports.html 
 7. Results can be seen in cypress Dashboard (https://dashboard.cypress.io/projects/6438sz/runs/7/specs) when integrated with Jenkins
-8. CI/CD ready - Install Jenkins and configure the path , command npm run test to run in jenkins
+8. CI/CD ready - Install Jenkins and setup job to run the test 
 
 
 It is based on Page object model design pattern & Modularity principle which makes the maintenance of test script easier when there is a change in page objects locaters.
