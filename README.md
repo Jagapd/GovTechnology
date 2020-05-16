@@ -13,7 +13,7 @@ Install dependencies by running the following command in terminal (from inside y
 npm install
 
 To Run test :
-npm run test ( Refer to package.json on what run test does - It cleans up previous report and updates to lates report )
+npm run test ( Refer to package.json on what run test does - It cleans up previous report and updates to latest report after test run)
 
 About Framework :
 
