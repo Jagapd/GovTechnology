@@ -18,9 +18,9 @@ npm run test ( Refer to package.json on what run test does - It cleans up previo
 About Framework :
 
 The framework exhibits 
-1. Modularity  
-2. Data Driven Test
-3. Reusability 
+1. Modularity  - All the test steps , page objects are modularised which makes maintenance easy. 
+2. Data Driven Test - use fixtures/Data.json for providing test data
+3. Reusability - Function blocks of any page be re used
 4. Recording Test Video - Can be found in Video/test/
 5. Failure screenshots are captured - Can be found in Screenshots folder
 6. Reports generated are stored in Reports/MochaReports/reports.html 
@@ -30,4 +30,6 @@ The framework exhibits
 
 It is based on Page object model design pattern & Modularity principle which makes the maintenance of test script easier when there is a change in page objects locaters.
 This framework can be extended to BDD if team is specific about using BDD approach for automation. 
+Test is written in single file to maintain suites of module in single file.
+
 
