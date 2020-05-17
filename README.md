@@ -18,7 +18,7 @@ npm run test ( Refer to package.json on what run test does - It cleans up previo
 About Framework :
 
 The framework exhibits 
-1. Modularity  - All the test steps , page objects are modularised which makes maintenance easy. 
+1. Modularity  - All the test steps , page objects are modularized which makes maintenance easy. 
 2. Data Driven Test - use fixtures/Data.json for providing test data
 3. Reusability - Function blocks of any page be re used
 4. Recording Test Video - Can be found in Video/test/
