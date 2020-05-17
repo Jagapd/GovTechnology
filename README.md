@@ -32,6 +32,8 @@ Framework is based on Page object model design pattern & Modularity principle wh
 
 This framework can be extended to BDD if team is specific about using BDD approach for automation. 
 
-Test is written in single file to maintain module based test script in single file. For different module we can have different files
+Test is written in single file to maintain module based test script in single file. For different module we can have different files. It would be easier to execute test script based on module for regression testing.
+
+
 
 
