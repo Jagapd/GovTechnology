@@ -20,11 +20,11 @@ About Framework :
 The framework exhibits 
 1. Modularity  - All the test steps , page objects are modularized which makes maintenance easy. 
 2. Data Driven Test - use fixtures/Data.json for providing test data
-3. Reusability - Function blocks of any page be re used
+3. Reusability - Function blocks of any page can be re used
 4. Recording Test Video - Can be found in Video/test/
 5. Failure screenshots are captured - Can be found in Screenshots folder
 6. Reports generated are stored in Reports/MochaReports/reports.html 
-7. Results can be seen in cypress Dashboard (https://dashboard.cypress.io/projects/6438sz/runs/7/specs) when integrated with Jenkins
+7. Results can be seen in cypress Dashboard (https://dashboard.cypress.io/projects/6438sz/runs/7/specs) . 
 8. CI/CD ready - Install Jenkins and setup job to run the test against every git merge.
 
 
